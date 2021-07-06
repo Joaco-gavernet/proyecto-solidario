@@ -16,7 +16,7 @@
     width: 300px;
     margin-left: 720px;
     margin-top: 90px;
-    align: right;
+    align: right;      /* Me marca el align como error, atte: Licha */
 }
 .second-paragraph
 {
@@ -24,6 +24,20 @@
     margin-left: 300px;
     margin-top: -180px;
     margin-bottom: 100px;
+}
+.third-img {
+    height:auto;
+    width: 300px;
+    margin-left: 300px;
+
+    
+}
+.third-paragraph {
+    text-align: right;
+    margin-right: 300px;
+    margin-top: -150px;
+    margin-bottom: 200px;
+    
 }
 footer 
 {
