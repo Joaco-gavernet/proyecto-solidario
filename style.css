@@ -10,13 +10,22 @@
     margin-right: 300px;
     margin-top: -200px;
 }
+/*.second-container
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "img paragraph";
+}
+*/
 .second-img
 {
     height: auto;
     width: 300px;
     margin-left: 720px;
-    margin-top: 90px;
-    align: right;      /* Me marca el align como error, atte: Licha */
+    margin-top: 90px; 
+    /* Me marca el align como error, atte: Licha -- Resuelto ichu, despues te explico el porque de cada cosa*/ 
+    /*grid-area: img;      
+    justify-self: center;*/ 
 }
 .second-paragraph
 {
@@ -24,6 +33,8 @@
     margin-left: 300px;
     margin-top: -180px;
     margin-bottom: 100px;
+    /*grid-area: paragraph;
+    justify-self: center;*/
 }
 .third-img {
     height:auto;
