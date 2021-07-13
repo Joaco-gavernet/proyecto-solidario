@@ -1,54 +1,109 @@
-.first-img
+nav
+{
+    background-color: rgb(6, 6, 112);
+    display: flex;
+    justify-content: space-around;
+    height: 4em;
+    align-items: center;
+    margin: -1em;
+}
+a
+{
+    color: cornsilk;
+    text-decoration: none;
+}
+p
+{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body
+{
+    background-color: rgb(30, 91, 221);  
+}
+.contenedor
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "img paragraph"; 
+    margin-bottom: 5em;
+    background-color: rgb(34, 34, 184);
+    height: 10em;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+.logo
 {
     height: auto;
-    width: 300px;
-    margin-left: 300px;
+    width: 10em;
+    grid-area: img;
+    justify-self: center;
+    margin-left: 3em;
+    border-radius: 50%;
+    align-self: center;
 }
-.first-paragraph
+.texto-presentacion
 {
-    text-align: right;
-    margin-right: 300px;
-    margin-top: -200px;
+    grid-area: paragraph;
+    justify-self: center;
+    margin-right: 3em;
+    padding-top: 1.5em;
 }
-/*.second-container
+.img-container
 {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-areas: "img paragraph";
+
 }
-*/
+.first-img
+{
+    height: auto;
+    width: 20em;
+    grid-area: img;
+    justify-self: center;
+}
+.first-paragraph
+{
+    grid-area: paragraph;
+    justify-self: center;
+}
+.second-container
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "paragraph img";
+    margin-top: 5em;
+}
+
 .second-img
 {
     height: auto;
-    width: 300px;
-    margin-left: 720px;
-    margin-top: 90px; 
-    /* Me marca el align como error, atte: Licha -- Resuelto ichu, despues te explico el porque de cada cosa*/ 
-    /*grid-area: img;      
-    justify-self: center;*/ 
+    width: 20em;
+    grid-area: img;      
+    justify-self: center;
 }
 .second-paragraph
 {
-    text-align: left;
-    margin-left: 300px;
-    margin-top: -180px;
-    margin-bottom: 100px;
-    /*grid-area: paragraph;
-    justify-self: center;*/
+    grid-area: paragraph;
+    justify-self: center;
+}
+.third-container
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "img paragraph";
+    margin-top: 5em;
 }
 .third-img {
-    height:auto;
-    width: 300px;
-    margin-left: 300px;
-
-    
+    height: auto;
+    width: 20em;
+    grid-area: img;      
+    justify-self: center;
 }
 .third-paragraph {
-    text-align: right;
-    margin-right: 300px;
-    margin-top: -150px;
-    margin-bottom: 200px;
-    
+    grid-area: paragraph;
+    justify-self: center;
 }
 footer 
 {
@@ -58,4 +113,8 @@ footer
     justify-content: space-around;
     align-items: center;
     height: 50px;
+    margin-top: 5em;
+    margin-right: -1em;
+    margin-left: -1em;
+    margin-bottom: -1em;
 }
