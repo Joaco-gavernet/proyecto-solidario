@@ -19,7 +19,7 @@ p
 }
 body
 {
-    background-color: rgb(30, 91, 221);  
+    background-color: rgb(164, 190, 248);  
 }
 .contenedor
 {
@@ -70,6 +70,8 @@ body
 {
     grid-area: paragraph;
     justify-self: center;
+    font-family: poppins; 
+    font-size: 2.5em;
 }
 .second-container
 {
@@ -90,6 +92,8 @@ body
 {
     grid-area: paragraph;
     justify-self: center;
+    font-family: poppins;
+    font-size: 2.5em;
 }
 .third-container
 {
@@ -107,6 +111,8 @@ body
 .third-paragraph {
     grid-area: paragraph;
     justify-self: center;
+    font-family: poppins;
+    font-size: 2.5em;
 }
 footer 
 {
