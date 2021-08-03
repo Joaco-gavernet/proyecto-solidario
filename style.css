@@ -32,6 +32,9 @@ body
     margin-left: -1em;
     margin-right: -1em;
 }
+.texto-presentacion {
+    max-width: 45em;
+}
 .logo
 {
     height: auto;
